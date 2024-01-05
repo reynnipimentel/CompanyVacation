@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+@SuppressWarnings("unchecked")
 public class Principal extends JFrame implements ActionListener{
     
      private JMenuBar mb;
@@ -200,7 +201,7 @@ public class Principal extends JFrame implements ActionListener{
        scrollpane1.setBounds(220,333,385,90);
        add(scrollpane1);
 
-       labelfooter = new JLabel("©2017 The Coca-Cola Company ║ Todos los derechos reservados:");
+       labelfooter = new JLabel("©2023 The Coca-Cola Company ║ Todos los derechos reservados:");
        labelfooter.setBounds(135,445,500,30);
        labelfooter.setFont(new Font("Andale Mono", 1, 12));
        labelfooter.setForeground(new Color(255,255,255));
